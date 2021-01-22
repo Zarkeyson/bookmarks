@@ -143,10 +143,12 @@ AUTHENTICATION_BACKENDS = [
     'account.authentication.EmailAuthBackend',
     'social_core.backends.facebook.FacebookOAuth2',
     'social_core.backends.google.GoogleOAuth2',
-    'social_core.backends.instagram.InstagramOAuth2',
+    'social_core.backends.github.GithubOAuth2',
 ]
 
 SOCIAL_AUTH_FACEBOOK_KEY = '1075529799539731' # Facebook App ID
 SOCIAL_AUTH_FACEBOOK_SECRET = 'b4a0f57b084108edcabd4b68c81591f2' # Facebook app secret
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '609378528136-n34hb9fhos1v97ld9dgtul4sehutt4bh.apps.googleusercontent.com' # Google Consumer key
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'U15AExQxB4XbaOKbC76fADY8' # Google Consumer secret
+SOCIAL_AUTH_GITHUB_KEY = 'acf7aefc9143bad81a8a' #Github app ID
+SOCIAL_AUTH_GITHUB_SECRET = '892f7f5d2838ec11bc0b2434775b465283dc9025' #Github app secret
