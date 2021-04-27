@@ -1,5 +1,5 @@
-(function(){
-    if (windows.myBookmarklet !== undefined) {
+(function() {
+    if (window.myBookmarklet !== undefined) {
         myBookmarklet();
     }
     else {
